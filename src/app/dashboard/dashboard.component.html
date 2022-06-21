@@ -1,0 +1,13 @@
+<h2 class="align">Melhores Estudantes</h2>
+<div class="students-menu">
+  <a class="link" *ngFor="let student of students" routerLink="/detail/{{student.id}}">
+    {{student.name}}
+  </a>
+</div>
+
+<h2 class="align">Melhores Professores</h2>
+<div class="teachers-menu">
+  <a class="link" *ngFor="let teacher of teachers" routerLink="/detail2/{{teacher.idprof}}">
+    {{teacher.nameprof}}
+  </a>
+</div>

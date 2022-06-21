@@ -1,0 +1,26 @@
+.colorWhite {
+  color: white;
+  padding-left: 20%;
+}
+
+.link {
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+  margin-bottom: 3%;
+  width: 200px;
+  height: 40px;
+  font-size: large;
+  cursor: pointer;
+  background-color: #635a9c;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 14px;
+  color: #f8f8ff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,17 @@
+<div *ngIf="teacher" class="align">
+  <button type="button" (click)="goBack()">Voltar</button>
+  <div>
+    <h2 class="colorWhite">Detalhes do Professor: {{teacher.nameprof}}</h2>
+    <div>
+      <label for="teacher-idprof">id </label>
+      <input id="teacher-idprof" [(ngModel)]="teacher.idprof" placeholder="id">
+    </div>
+    <div>
+      <label for="teacher-nameprof">Nome </label>
+      <input id="teacher-nameprof" [(ngModel)]="teacher.nameprof" placeholder="Nome">
+    </div>
+    <div>
+      <label for="teacher-codprof">Código </label>
+      <input id="teacher-codprof" [(ngModel)]="teacher.codprof" placeholder="Código">
+    </div>
+  </div>

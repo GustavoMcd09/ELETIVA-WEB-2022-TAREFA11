@@ -1,0 +1,9 @@
+<h2 class="align">Professores</h2>
+<ul class="teachers">
+  <li *ngFor="let teacher of teachers" class="button">
+    <a class="link" routerLink="/detail2/{{teacher.idprof}}">
+      <span class="badge">{{teacher.nameprof}}</span>
+    </a>
+  </li>
+</ul>
+<app-teacher-detail2 [teacher]="selectedTeacher"></app-teacher-detail2>

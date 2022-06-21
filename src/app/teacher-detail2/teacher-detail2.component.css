@@ -1,0 +1,39 @@
+input {
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+  margin-bottom: 3%;
+  width: 380px;
+  height: 30px;
+  font-size: medium;
+  flex-direction: row;
+  display: flex;
+  background-color: #f8f8ff;
+}
+
+label {
+  font-size: medium;
+  color: white;
+}
+
+.colorWhite {
+  color: white;
+  width: 390px;
+  height: 30px;
+  padding-bottom: 3%;
+}
+
+.align {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+Button {
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+  margin-bottom: 3%;
+  width: 80px;
+  height: 50px;
+  font-size: large;
+  cursor: pointer;
+  background-color: #ffae4d;
+}
